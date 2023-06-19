@@ -17,7 +17,8 @@ let package = Package(
             name: "Expanse",
             targets: [
                 "CombineExpansion",
-                "StandardLibraryExpansion"
+                "StandardLibraryExpansion",
+                "UIKitExpansion"
             ]),
     ],
     targets: [
@@ -25,6 +26,8 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .target(name: "CombineExpansion"),
         .target(name: "StandardLibraryExpansion"),
+        .target(name: "UIKitExpansion"),
+
         .testTarget(
             name: "StandardLibraryExpansionTests",
             dependencies: ["StandardLibraryExpansion"]),
