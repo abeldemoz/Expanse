@@ -15,15 +15,18 @@ let package = Package(
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "Expanse",
-            targets: ["CombineExpansion"]),
+            targets: [
+                "CombineExpansion",
+                "StandardLibraryExpansion"
+            ]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
-        .target(
-            name: "CombineExpansion"),
+        .target(name: "CombineExpansion"),
+        .target(name: "StandardLibraryExpansion"),
         .testTarget(
-            name: "ExpanseTests",
-            dependencies: ["CombineExpansion"]),
+            name: "StandardLibraryExpansionTests",
+            dependencies: ["StandardLibraryExpansion"]),
     ]
 )
