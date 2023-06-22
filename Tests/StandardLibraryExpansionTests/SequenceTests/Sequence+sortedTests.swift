@@ -1,5 +1,5 @@
 //
-//  SequenceTests.swift
+//  SequenceSortedTests.swift
 //  
 //
 //  Created by Abel Demoz on 19/06/2023.
@@ -8,7 +8,7 @@
 import XCTest
 @testable import StandardLibraryExpansion
 
-final class SequenceExtentionsTests: XCTestCase {
+final class SequenceSortedTests: XCTestCase {
 
     private struct TestHelper: Equatable {
         let property: Int

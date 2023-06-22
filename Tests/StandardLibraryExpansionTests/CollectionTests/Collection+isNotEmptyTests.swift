@@ -1,5 +1,5 @@
 //
-//  CollectionTests.swift
+//  Collection+isNotEmptyTests.swift
 //  
 //
 //  Created by Abel Demoz on 19/06/2023.
@@ -8,7 +8,7 @@
 import XCTest
 @testable import StandardLibraryExpansion
 
-final class CollectionExtentionsTests: XCTestCase {
+final class CollectionIsNotEmptyTests: XCTestCase {
 
     func testIsNotEmpty_returnsTrue_whenCollectionContainsElements() {
         let collection1: Array<Int> = [1]
