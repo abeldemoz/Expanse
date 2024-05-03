@@ -1,8 +1,8 @@
 //
-//  File.swift
-//  
+// Publisher+asyncMap.swift
 //
-//  Created by Abel Demoz on 19/06/2023.
+//
+// Created by Abel Demoz on 19/06/2023.
 //
 
 #if canImport(Combine)
@@ -25,4 +25,3 @@ public extension Publisher {
 }
 
 #endif
-

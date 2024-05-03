@@ -1,8 +1,8 @@
 //
-//  Collection+isNotEmpty.swift
-//  
+// Collection+isNotEmpty.swift
 //
-//  Created by Abel Demoz on 19/06/2023.
+//
+// Created by Abel Demoz on 17/07/2023.
 //
 
 public extension Collection {

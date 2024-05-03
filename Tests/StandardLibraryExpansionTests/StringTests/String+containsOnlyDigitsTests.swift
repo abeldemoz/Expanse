@@ -1,8 +1,8 @@
 //
-//  String+containsOnlyDigitsTests.swift
-//  
+// String+containsOnlyDigitsTests.swift
 //
-//  Created by Abel Demoz on 22/06/2023.
+//
+// Created by Abel Demoz on 22/06/2023.
 //
 
 import XCTest

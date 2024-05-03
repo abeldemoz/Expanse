@@ -1,8 +1,8 @@
 //
-//  Collection+isNotEmptyTests.swift
-//  
+// Collection+isNotEmptyTests.swift
 //
-//  Created by Abel Demoz on 19/06/2023.
+//
+// Created by Abel Demoz on 22/06/2023.
 //
 
 import XCTest
@@ -11,10 +11,10 @@ import XCTest
 final class CollectionIsNotEmptyTests: XCTestCase {
 
     func testIsNotEmpty_returnsTrue_whenCollectionContainsElements() {
-        let collection1: Array<Int> = [1]
+        let collection1 = [1]
         let collection2: Set<Int> = [1]
-        let collection3: Dictionary<Int, Int> = [1: 1]
-        let collection4: String = "1"
+        let collection3 = [1: 1]
+        let collection4 = "1"
 
         XCTAssert(collection1.isNotEmpty)
         XCTAssert(collection2.isNotEmpty)
@@ -23,9 +23,9 @@ final class CollectionIsNotEmptyTests: XCTestCase {
     }
 
     func testIsNotEmpty_returnsFalse_whenCollectionContainsZeroElements() {
-        let collection1 = Array<Int>()
+        let collection1 = [Int]()
         let collection2 = Set<Int>()
-        let collection3 = Dictionary<Int, Int>()
+        let collection3 = [Int: Int]()
         let collection4 = String()
 
         XCTAssertFalse(collection1.isNotEmpty)
@@ -35,4 +35,3 @@ final class CollectionIsNotEmptyTests: XCTestCase {
     }
 
 }
-

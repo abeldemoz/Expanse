@@ -1,8 +1,8 @@
 //
-//  SequenceSortedTests.swift
-//  
+// Sequence+sortedTests.swift
 //
-//  Created by Abel Demoz on 19/06/2023.
+//
+// Created by Abel Demoz on 22/06/2023.
 //
 
 import XCTest
@@ -34,4 +34,3 @@ final class SequenceSortedTests: XCTestCase {
         XCTAssertEqual(sortedSequence, expectedSequence)
     }
 }
-

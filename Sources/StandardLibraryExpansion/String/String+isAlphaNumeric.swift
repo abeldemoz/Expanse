@@ -1,8 +1,8 @@
 //
-//  String+isAlphaNumeric.swift
-//  
+// String+isAlphaNumeric.swift
 //
-//  Created by Abel Demoz on 19/06/2023.
+//
+// Created by Abel Demoz on 19/06/2023.
 //
 
 import Foundation

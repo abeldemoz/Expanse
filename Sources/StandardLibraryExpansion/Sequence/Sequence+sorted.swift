@@ -1,8 +1,8 @@
 //
-//  Sequence+sorted.swift
-//  
+// Sequence+sorted.swift
 //
-//  Created by Abel Demoz on 19/06/2023.
+//
+// Created by Abel Demoz on 19/06/2023.
 //
 
 public enum SortingOrder {
@@ -26,4 +26,3 @@ public extension Sequence {
         }
     }
 }
-

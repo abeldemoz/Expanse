@@ -1,8 +1,8 @@
 //
-//  String+containsOnlyDigits.swift
-//  
+// String+containsOnlyDigits.swift
 //
-//  Created by Abel Demoz on 19/06/2023.
+//
+// Created by Abel Demoz on 19/06/2023.
 //
 
 import Foundation

@@ -1,8 +1,8 @@
 //
-//  String+isAlphanumericTests.swift
-//  
+// String+isAlphanumericTests.swift
 //
-//  Created by Abel Demoz on 19/06/2023.
+//
+// Created by Abel Demoz on 19/06/2023.
 //
 
 import XCTest
@@ -47,5 +47,3 @@ final class StringIsAlphanumericTests: XCTestCase {
         XCTAssertEqual(testString.isAlphanumeric, false)
     }
 }
-
-

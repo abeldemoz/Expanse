@@ -1,8 +1,8 @@
 //
-//  String+containsOnlyWhitespaceTests.swift
-//  
+// String+containsOnlyWhitespaceTests.swift
 //
-//  Created by Abel Demoz on 09/07/2023.
+//
+// Created by Abel Demoz on 09/07/2023.
 //
 
 import XCTest

@@ -1,12 +1,12 @@
 //
-//  String+containsOnlyWhitespace.swift
-//  
+// String+containsOnlyWhitespace.swift
 //
-//  Created by Abel Demoz on 09/07/2023.
+//
+// Created by Abel Demoz on 09/07/2023.
 //
 
 public extension String {
     var containsOnlyWhitespace: Bool {
-        self.isNotEmpty && self.trimmed.isEmpty
+        isNotEmpty && trimmed.isEmpty
     }
 }
